@@ -3,32 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>My Projects</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <header>
-    <h1>Your Name</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 class="logo">Dipak</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Welcome to My Portfolio</h2>
-      <p>I’m a PHP Developer interested in building awesome web applications.</p>
-    </section>
+  <main class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Blog CMS</h3>
+        <p>Custom-built PHP blog with login, CRUD posts, and comment management.</p>
+        <a href="https://github.com/websdipak/blog-cms" target="_blank">View Code</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Laravel API</h3>
+        <p>RESTful API using Laravel for task management, with token-based auth.</p>
+        <a href="https://github.com/websdipak/laravel-api" target="_blank">View Code</a>
+      </div>
+
+      <div class="project-card">
+        <h3>PHP Portfolio</h3>
+        <p>This portfolio website built using plain HTML, CSS, and PHP contact form.</p>
+        <a href="https://websdipak.github.io/portfolio" target="_blank">Live Site</a>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Your Name</p>
+    <div class="container">
+      <p>&copy; 2025 Dipak | All rights reserved.</p>
+    </div>
   </footer>
 
 </body>
